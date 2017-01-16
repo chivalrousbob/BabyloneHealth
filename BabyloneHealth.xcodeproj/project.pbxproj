@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E874B01E2C6F390019583E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E874AF1E2C6F390019583E /* AppDelegate.swift */; };
+		04E874B21E2C6F390019583E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E874B11E2C6F390019583E /* ViewController.swift */; };
+		04E874B51E2C6F390019583E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E874B31E2C6F390019583E /* Main.storyboard */; };
+		04E874B81E2C6F390019583E /* BabyloneHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E874B61E2C6F390019583E /* BabyloneHealth.xcdatamodeld */; };
+		04E874BA1E2C6F390019583E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E874B91E2C6F390019583E /* Assets.xcassets */; };
+		04E874BD1E2C6F390019583E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E874BB1E2C6F390019583E /* LaunchScreen.storyboard */; };
+		04E874C81E2C6F390019583E /* BabyloneHealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E874C71E2C6F390019583E /* BabyloneHealthTests.swift */; };
+		04E874D31E2C6F390019583E /* BabyloneHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E874D21E2C6F390019583E /* BabyloneHealthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E874C41E2C6F390019583E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E874A41E2C6F390019583E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E874AB1E2C6F390019583E;
+			remoteInfo = BabyloneHealth;
+		};
+		04E874CF1E2C6F390019583E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E874A41E2C6F390019583E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E874AB1E2C6F390019583E;
+			remoteInfo = BabyloneHealth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E874AC1E2C6F390019583E /* BabyloneHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyloneHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E874AF1E2C6F390019583E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E874B11E2C6F390019583E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04E874B41E2C6F390019583E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E874B71E2C6F390019583E /* BabyloneHealth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabyloneHealth.xcdatamodel; sourceTree = "<group>"; };
+		04E874B91E2C6F390019583E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E874BC1E2C6F390019583E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E874BE1E2C6F390019583E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E874C31E2C6F390019583E /* BabyloneHealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyloneHealthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E874C71E2C6F390019583E /* BabyloneHealthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyloneHealthTests.swift; sourceTree = "<group>"; };
+		04E874C91E2C6F390019583E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E874CE1E2C6F390019583E /* BabyloneHealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyloneHealthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E874D21E2C6F390019583E /* BabyloneHealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyloneHealthUITests.swift; sourceTree = "<group>"; };
+		04E874D41E2C6F390019583E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E874A91E2C6F390019583E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E874C01E2C6F390019583E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E874CB1E2C6F390019583E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E874A31E2C6F390019583E = {
+			isa = PBXGroup;
+			children = (
+				04E874AE1E2C6F390019583E /* BabyloneHealth */,
+				04E874C61E2C6F390019583E /* BabyloneHealthTests */,
+				04E874D11E2C6F390019583E /* BabyloneHealthUITests */,
+				04E874AD1E2C6F390019583E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E874AD1E2C6F390019583E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E874AC1E2C6F390019583E /* BabyloneHealth.app */,
+				04E874C31E2C6F390019583E /* BabyloneHealthTests.xctest */,
+				04E874CE1E2C6F390019583E /* BabyloneHealthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E874AE1E2C6F390019583E /* BabyloneHealth */ = {
+			isa = PBXGroup;
+			children = (
+				04E874AF1E2C6F390019583E /* AppDelegate.swift */,
+				04E874B11E2C6F390019583E /* ViewController.swift */,
+				04E874B31E2C6F390019583E /* Main.storyboard */,
+				04E874B91E2C6F390019583E /* Assets.xcassets */,
+				04E874BB1E2C6F390019583E /* LaunchScreen.storyboard */,
+				04E874BE1E2C6F390019583E /* Info.plist */,
+				04E874B61E2C6F390019583E /* BabyloneHealth.xcdatamodeld */,
+			);
+			path = BabyloneHealth;
+			sourceTree = "<group>";
+		};
+		04E874C61E2C6F390019583E /* BabyloneHealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E874C71E2C6F390019583E /* BabyloneHealthTests.swift */,
+				04E874C91E2C6F390019583E /* Info.plist */,
+			);
+			path = BabyloneHealthTests;
+			sourceTree = "<group>";
+		};
+		04E874D11E2C6F390019583E /* BabyloneHealthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04E874D21E2C6F390019583E /* BabyloneHealthUITests.swift */,
+				04E874D41E2C6F390019583E /* Info.plist */,
+			);
+			path = BabyloneHealthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E874AB1E2C6F390019583E /* BabyloneHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E874D71E2C6F390019583E /* Build configuration list for PBXNativeTarget "BabyloneHealth" */;
+			buildPhases = (
+				04E874A81E2C6F390019583E /* Sources */,
+				04E874A91E2C6F390019583E /* Frameworks */,
+				04E874AA1E2C6F390019583E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyloneHealth;
+			productName = BabyloneHealth;
+			productReference = 04E874AC1E2C6F390019583E /* BabyloneHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E874C21E2C6F390019583E /* BabyloneHealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E874DA1E2C6F390019583E /* Build configuration list for PBXNativeTarget "BabyloneHealthTests" */;
+			buildPhases = (
+				04E874BF1E2C6F390019583E /* Sources */,
+				04E874C01E2C6F390019583E /* Frameworks */,
+				04E874C11E2C6F390019583E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E874C51E2C6F390019583E /* PBXTargetDependency */,
+			);
+			name = BabyloneHealthTests;
+			productName = BabyloneHealthTests;
+			productReference = 04E874C31E2C6F390019583E /* BabyloneHealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E874CD1E2C6F390019583E /* BabyloneHealthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E874DD1E2C6F390019583E /* Build configuration list for PBXNativeTarget "BabyloneHealthUITests" */;
+			buildPhases = (
+				04E874CA1E2C6F390019583E /* Sources */,
+				04E874CB1E2C6F390019583E /* Frameworks */,
+				04E874CC1E2C6F390019583E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E874D01E2C6F390019583E /* PBXTargetDependency */,
+			);
+			name = BabyloneHealthUITests;
+			productName = BabyloneHealthUITests;
+			productReference = 04E874CE1E2C6F390019583E /* BabyloneHealthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E874A41E2C6F390019583E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ayoub NOURI";
+				TargetAttributes = {
+					04E874AB1E2C6F390019583E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					04E874C21E2C6F390019583E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04E874AB1E2C6F390019583E;
+					};
+					04E874CD1E2C6F390019583E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04E874AB1E2C6F390019583E;
+					};
+				};
+			};
+			buildConfigurationList = 04E874A71E2C6F390019583E /* Build configuration list for PBXProject "BabyloneHealth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E874A31E2C6F390019583E;
+			productRefGroup = 04E874AD1E2C6F390019583E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E874AB1E2C6F390019583E /* BabyloneHealth */,
+				04E874C21E2C6F390019583E /* BabyloneHealthTests */,
+				04E874CD1E2C6F390019583E /* BabyloneHealthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E874AA1E2C6F390019583E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E874BD1E2C6F390019583E /* LaunchScreen.storyboard in Resources */,
+				04E874BA1E2C6F390019583E /* Assets.xcassets in Resources */,
+				04E874B51E2C6F390019583E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E874C11E2C6F390019583E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E874CC1E2C6F390019583E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E874A81E2C6F390019583E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E874B21E2C6F390019583E /* ViewController.swift in Sources */,
+				04E874B01E2C6F390019583E /* AppDelegate.swift in Sources */,
+				04E874B81E2C6F390019583E /* BabyloneHealth.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E874BF1E2C6F390019583E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E874C81E2C6F390019583E /* BabyloneHealthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E874CA1E2C6F390019583E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E874D31E2C6F390019583E /* BabyloneHealthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E874C51E2C6F390019583E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E874AB1E2C6F390019583E /* BabyloneHealth */;
+			targetProxy = 04E874C41E2C6F390019583E /* PBXContainerItemProxy */;
+		};
+		04E874D01E2C6F390019583E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E874AB1E2C6F390019583E /* BabyloneHealth */;
+			targetProxy = 04E874CF1E2C6F390019583E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E874B31E2C6F390019583E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E874B41E2C6F390019583E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E874BB1E2C6F390019583E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E874BC1E2C6F390019583E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E874D51E2C6F390019583E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E874D61E2C6F390019583E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E874D81E2C6F390019583E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BabyloneHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AyoubNouri.BabyloneHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04E874D91E2C6F390019583E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BabyloneHealth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AyoubNouri.BabyloneHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		04E874DB1E2C6F390019583E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BabyloneHealthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AyoubNouri.BabyloneHealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyloneHealth.app/BabyloneHealth";
+			};
+			name = Debug;
+		};
+		04E874DC1E2C6F390019583E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BabyloneHealthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AyoubNouri.BabyloneHealthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyloneHealth.app/BabyloneHealth";
+			};
+			name = Release;
+		};
+		04E874DE1E2C6F390019583E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BabyloneHealthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AyoubNouri.BabyloneHealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BabyloneHealth;
+			};
+			name = Debug;
+		};
+		04E874DF1E2C6F390019583E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BabyloneHealthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AyoubNouri.BabyloneHealthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BabyloneHealth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E874A71E2C6F390019583E /* Build configuration list for PBXProject "BabyloneHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E874D51E2C6F390019583E /* Debug */,
+				04E874D61E2C6F390019583E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E874D71E2C6F390019583E /* Build configuration list for PBXNativeTarget "BabyloneHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E874D81E2C6F390019583E /* Debug */,
+				04E874D91E2C6F390019583E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04E874DA1E2C6F390019583E /* Build configuration list for PBXNativeTarget "BabyloneHealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E874DB1E2C6F390019583E /* Debug */,
+				04E874DC1E2C6F390019583E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04E874DD1E2C6F390019583E /* Build configuration list for PBXNativeTarget "BabyloneHealthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E874DE1E2C6F390019583E /* Debug */,
+				04E874DF1E2C6F390019583E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04E874B61E2C6F390019583E /* BabyloneHealth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04E874B71E2C6F390019583E /* BabyloneHealth.xcdatamodel */,
+			);
+			currentVersion = 04E874B71E2C6F390019583E /* BabyloneHealth.xcdatamodel */;
+			path = BabyloneHealth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04E874A41E2C6F390019583E /* Project object */;
+}
