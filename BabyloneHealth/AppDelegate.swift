@@ -13,10 +13,17 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let reachability = Reachability()!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+       
+        NotificationCenter.default.addObserver(self, selector: #selector(self.checkForReachability),name: ReachabilityChangedNotification,object: reachability)
+        do{
+            try reachability.startNotifier()
+        }catch{
+            print("could not start reachability notifier")
+        }
+
         return true
     }
 
@@ -88,6 +95,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+
+    
+    func checkForReachability(notification:NSNotification)
+    {
+        let networkReachability = notification.object as! Reachability;
+        if (networkReachability.isReachable)
+        {
+            print("Reachable")
+        }else{
+            print("Not Reachable")
+        }
+        
+    }
+
 
 }
 

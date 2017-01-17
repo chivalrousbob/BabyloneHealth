@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047E8C0C1E2C71120087D651 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E8C0B1E2C71120087D651 /* DataManager.swift */; };
+		047E8C1B1E2C74030087D651 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E8C1A1E2C74030087D651 /* URL.swift */; };
+		047E8C1D1E2C793D0087D651 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E8C1C1E2C793D0087D651 /* PostViewController.swift */; };
+		047E8C1F1E2C794F0087D651 /* PostViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E8C1E1E2C794F0087D651 /* PostViewCell.swift */; };
+		047E8C211E2C79FA0087D651 /* PostViewControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E8C201E2C79FA0087D651 /* PostViewControllerHelper.swift */; };
+		047E8C231E2C88310087D651 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E8C221E2C88310087D651 /* PostDetailViewController.swift */; };
+		047E8C381E2CBA270087D651 /* PostObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E8C371E2CBA270087D651 /* PostObject.swift */; };
+		047E8C3C1E2D89680087D651 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E8C3B1E2D89680087D651 /* Reachability.swift */; };
+		047E8C4B1E2D916F0087D651 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E8C4A1E2D916F0087D651 /* UIViewController.swift */; };
 		04E874B01E2C6F390019583E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E874AF1E2C6F390019583E /* AppDelegate.swift */; };
-		04E874B21E2C6F390019583E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E874B11E2C6F390019583E /* ViewController.swift */; };
 		04E874B51E2C6F390019583E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E874B31E2C6F390019583E /* Main.storyboard */; };
 		04E874B81E2C6F390019583E /* BabyloneHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E874B61E2C6F390019583E /* BabyloneHealth.xcdatamodeld */; };
 		04E874BA1E2C6F390019583E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E874B91E2C6F390019583E /* Assets.xcassets */; };
@@ -35,9 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047E8C0B1E2C71120087D651 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		047E8C1A1E2C74030087D651 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		047E8C1C1E2C793D0087D651 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		047E8C1E1E2C794F0087D651 /* PostViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewCell.swift; sourceTree = "<group>"; };
+		047E8C201E2C79FA0087D651 /* PostViewControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewControllerHelper.swift; sourceTree = "<group>"; };
+		047E8C221E2C88310087D651 /* PostDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		047E8C361E2C94EE0087D651 /* BabyloneHealth 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "BabyloneHealth 2.xcdatamodel"; sourceTree = "<group>"; };
+		047E8C371E2CBA270087D651 /* PostObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostObject.swift; sourceTree = "<group>"; };
+		047E8C3B1E2D89680087D651 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		047E8C4A1E2D916F0087D651 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		04E874AC1E2C6F390019583E /* BabyloneHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyloneHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E874AF1E2C6F390019583E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04E874B11E2C6F390019583E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04E874B41E2C6F390019583E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E874B71E2C6F390019583E /* BabyloneHealth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabyloneHealth.xcdatamodel; sourceTree = "<group>"; };
 		04E874B91E2C6F390019583E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +93,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047E8C081E2C70C40087D651 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				047E8C1C1E2C793D0087D651 /* PostViewController.swift */,
+				047E8C201E2C79FA0087D651 /* PostViewControllerHelper.swift */,
+				047E8C221E2C88310087D651 /* PostDetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		047E8C091E2C70CB0087D651 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				047E8C0B1E2C71120087D651 /* DataManager.swift */,
+				047E8C1A1E2C74030087D651 /* URL.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		047E8C0A1E2C70DB0087D651 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				047E8C1E1E2C794F0087D651 /* PostViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		047E8C191E2C735F0087D651 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				047E8C371E2CBA270087D651 /* PostObject.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		047E8C391E2D893A0087D651 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				047E8C3A1E2D89430087D651 /* Reachability */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		047E8C3A1E2D89430087D651 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				047E8C3B1E2D89680087D651 /* Reachability.swift */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		047E8C491E2D914B0087D651 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				047E8C4A1E2D916F0087D651 /* UIViewController.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 		04E874A31E2C6F390019583E = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +175,13 @@
 		04E874AE1E2C6F390019583E /* BabyloneHealth */ = {
 			isa = PBXGroup;
 			children = (
+				047E8C491E2D914B0087D651 /* Extension */,
+				047E8C391E2D893A0087D651 /* Library */,
+				047E8C191E2C735F0087D651 /* Model */,
+				047E8C0A1E2C70DB0087D651 /* Cell */,
+				047E8C091E2C70CB0087D651 /* API */,
+				047E8C081E2C70C40087D651 /* Controller */,
 				04E874AF1E2C6F390019583E /* AppDelegate.swift */,
-				04E874B11E2C6F390019583E /* ViewController.swift */,
 				04E874B31E2C6F390019583E /* Main.storyboard */,
 				04E874B91E2C6F390019583E /* Assets.xcassets */,
 				04E874BB1E2C6F390019583E /* LaunchScreen.storyboard */,
@@ -262,9 +343,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E874B21E2C6F390019583E /* ViewController.swift in Sources */,
 				04E874B01E2C6F390019583E /* AppDelegate.swift in Sources */,
+				047E8C231E2C88310087D651 /* PostDetailViewController.swift in Sources */,
+				047E8C211E2C79FA0087D651 /* PostViewControllerHelper.swift in Sources */,
+				047E8C4B1E2D916F0087D651 /* UIViewController.swift in Sources */,
+				047E8C381E2CBA270087D651 /* PostObject.swift in Sources */,
+				047E8C0C1E2C71120087D651 /* DataManager.swift in Sources */,
+				047E8C1B1E2C74030087D651 /* URL.swift in Sources */,
+				047E8C1F1E2C794F0087D651 /* PostViewCell.swift in Sources */,
 				04E874B81E2C6F390019583E /* BabyloneHealth.xcdatamodeld in Sources */,
+				047E8C3C1E2D89680087D651 /* Reachability.swift in Sources */,
+				047E8C1D1E2C793D0087D651 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +596,7 @@
 				04E874D91E2C6F390019583E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E874DA1E2C6F390019583E /* Build configuration list for PBXNativeTarget "BabyloneHealthTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +605,7 @@
 				04E874DC1E2C6F390019583E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E874DD1E2C6F390019583E /* Build configuration list for PBXNativeTarget "BabyloneHealthUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +614,7 @@
 				04E874DF1E2C6F390019583E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -530,6 +622,7 @@
 		04E874B61E2C6F390019583E /* BabyloneHealth.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				047E8C361E2C94EE0087D651 /* BabyloneHealth 2.xcdatamodel */,
 				04E874B71E2C6F390019583E /* BabyloneHealth.xcdatamodel */,
 			);
 			currentVersion = 04E874B71E2C6F390019583E /* BabyloneHealth.xcdatamodel */;

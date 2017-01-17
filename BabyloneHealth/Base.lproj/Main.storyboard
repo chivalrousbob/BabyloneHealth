@@ -1,26 +1,153 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FzB-gw-fnE">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Posts List-->
+        <scene sceneID="chr-MI-pEb">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tableViewController id="fqh-Cp-WoV" customClass="PostViewController" customModule="BabyloneHealth" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="50" sectionHeaderHeight="28" sectionFooterHeight="28" id="Gpu-s3-YNe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="postCell" textLabel="TPr-MY-A5a" rowHeight="50" style="IBUITableViewCellStyleDefault" id="hYx-W6-gVh" customClass="PostViewCell" customModule="BabyloneHealth" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="375" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hYx-W6-gVh" id="lKN-qJ-2Df">
+                                    <frame key="frameInset" width="375" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TPr-MY-A5a">
+                                            <frame key="frameInset" minX="15" width="345" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="postTitle" destination="TPr-MY-A5a" id="EMW-s5-0U2"/>
+                                    <segue destination="yZp-d5-5XY" kind="showDetail" identifier="showPostDetail" id="qzW-1r-5fg">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fqh-Cp-WoV" id="igM-le-VJ9"/>
+                            <outlet property="delegate" destination="fqh-Cp-WoV" id="kJS-CR-2ej"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Posts List" id="jjr-lE-pet"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ye9-aL-914" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1506" y="-137"/>
+        </scene>
+        <!--Post Detail-->
+        <scene sceneID="fTa-uA-roB">
+            <objects>
+                <viewController id="bBA-YP-fkd" customClass="PostDetailViewController" customModule="BabyloneHealth" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JXS-wW-W2j"/>
+                        <viewControllerLayoutGuide type="bottom" id="eEU-gl-LPg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zbn-uW-UNE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Romane Queau" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJg-8s-D9A">
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NGV-sT-f3T">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="265" id="ePQ-u9-oAb"/>
+                                    <constraint firstAttribute="width" constant="268" id="oMa-iZ-Ut2"/>
+                                </constraints>
+                                <string key="text">ea velit perferendis earum ut voluptatem voluptate itaque iusto\ntotam pariatur in\nnemo voluptatem voluptatem autem magni tempora minima in\nest distinctio qui assumenda accusamus dignissimos officia nesciunt nobis</string>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Comments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pff-RI-w9F">
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pff-RI-w9F" firstAttribute="top" secondItem="gJg-8s-D9A" secondAttribute="bottom" constant="40" id="7z7-q5-JJU"/>
+                            <constraint firstItem="NGV-sT-f3T" firstAttribute="top" secondItem="JXS-wW-W2j" secondAttribute="bottom" constant="84" id="9Pf-Uf-8NE"/>
+                            <constraint firstItem="gJg-8s-D9A" firstAttribute="top" secondItem="NGV-sT-f3T" secondAttribute="bottom" constant="39" id="Cdc-Ek-BCF"/>
+                            <constraint firstItem="NGV-sT-f3T" firstAttribute="centerX" secondItem="zbn-uW-UNE" secondAttribute="centerX" id="IwQ-4A-6Gj"/>
+                            <constraint firstItem="gJg-8s-D9A" firstAttribute="centerX" secondItem="zbn-uW-UNE" secondAttribute="centerX" id="ctL-Ta-3sq"/>
+                            <constraint firstItem="pff-RI-w9F" firstAttribute="centerX" secondItem="zbn-uW-UNE" secondAttribute="centerX" id="gzN-Pg-tUS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Post Detail" id="abf-N3-ieA">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="75V-ig-x0x">
+                            <connections>
+                                <action selector="backToPostsViewControllerWithSegue:" destination="doZ-aR-KhV" id="Lm2-48-TkF"/>
+                                <segue destination="9FT-f6-ckO" kind="unwind" unwindAction="unwindFromPostsViewControllerWithSegue:" id="WS5-Jq-oK7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="authorName" destination="gJg-8s-D9A" id="oSN-PN-hxb"/>
+                        <outlet property="numberOfComments" destination="pff-RI-w9F" id="tIR-1N-YMS"/>
+                        <outlet property="postBody" destination="NGV-sT-f3T" id="roX-SY-ZV6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="doZ-aR-KhV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="9FT-f6-ckO" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3289" y="-137"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4jf-UR-2i4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FzB-gw-fnE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AEt-h6-n9x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fqh-Cp-WoV" kind="relationship" relationship="rootViewController" id="bdh-1b-Fg1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lzH-hq-D4k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="567" y="-137"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bUS-RA-Ck9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yZp-d5-5XY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CH4-ow-3wv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bBA-YP-fkd" kind="relationship" relationship="rootViewController" id="AJe-mv-WQT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l9p-ai-T20" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2343" y="-137"/>
         </scene>
     </scenes>
 </document>
